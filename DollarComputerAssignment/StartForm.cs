@@ -17,7 +17,34 @@ namespace DollarComputerAssignment
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void NewOrderButton_Click(object sender, EventArgs e)
+        {
+            new SelectForm().Show();
+                this.Hide();
+        }
+
+        private void SaveOrderButton_Click(object sender, EventArgs e)
+        {
+            new ProductInfoForm().Show();
+            this.Hide();
+        }
+
+        private void ExitButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void StartForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SaveOrderButton_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ExItButton_Click_1(object sender, EventArgs e)
         {
 
         }
