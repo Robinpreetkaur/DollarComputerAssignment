@@ -47,11 +47,6 @@ namespace DollarComputerAssignment
 
         }
 
-        internal class Show
-        {
-            public Show()
-            {
-            }
-        }
+        
     }
 }
