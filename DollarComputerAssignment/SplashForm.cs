@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace DollarComputerAssignment
 {
-    public partial class Splash : Form
+    public partial class SplashForm : Form
     {
-        public Splash()
+        public SplashForm()
         {
             InitializeComponent();
         }
